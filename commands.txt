@@ -1,4 +1,4 @@
-gc filename.txt -Wait  [view file in live mode]
+gc filename.txt -Wait  (view file in live mode)
 
-
+Set-Content filename.txt "new content" (overwrite content in files)
 
