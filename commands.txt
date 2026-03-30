@@ -1,7 +1,12 @@
 gc filename.txt -Wait  (view file in live mode)
+
 Set-Content filename.txt "new content"  (overwrite content in files)
+
 Add-Content filename.txt "hello world"  (add content in new line on files)
+
 Get-Date -Format "dd-MM-yyyy HH:mm:ss" (Show actualy date and time)
+
 $name = "my-name" (create variable)
+
 (Get-Item log.txt).Length / 1MB (see a size of file in MB)
 
