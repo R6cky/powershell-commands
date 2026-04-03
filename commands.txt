@@ -12,7 +12,7 @@ $name = "my-name" (create variable)
 
 (Get-Item log.txt).Length / 1MB (see a size of file in MB)
 
-
+Set-Content -Path "register.log" -Value ("A" * 1MB)     (set 1MB content in text file)
 
 
 -----------------------------------------------------------------------------------------------
